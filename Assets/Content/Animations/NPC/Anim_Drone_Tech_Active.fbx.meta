@@ -1,0 +1,616 @@
+fileFormatVersion: 2
+guid: 12d4ac808fe387d42ba800870fa710fb
+ModelImporter:
+  serializedVersion: 22200
+  internalIDToNameTable: []
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: DroneActiveClip
+      takeName: Take 001
+      internalID: 1827226128182048838
+      firstFrame: 0
+      lastFrame: 200
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 10
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 0
+    importBlendShapes: 0
+    importCameras: 0
+    importLights: 0
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton:
+    - name: DM_Drone_Tech(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Drone
+      parentName: DM_Drone_Tech(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Base_Drone
+      parentName: Drone
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: antenna
+      parentName: Base_Drone
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Luke_L
+      parentName: Base_Drone
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Luke_R
+      parentName: Base_Drone
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Laser_R
+      parentName: Base_Drone
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Laser_L
+      parentName: Base_Drone
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface223
+      parentName: Base_Drone
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hand_tech_R
+      parentName: Drone
+      position: {x: 0.18135361, y: -0.020381965, z: 0.045347046}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Arm_Robo_Hand_R1
+      parentName: hand_tech_R
+      position: {x: -0.18135361, y: 0.020381965, z: -0.045347046}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Arm_Robo_Hand_R2
+      parentName: Arm_Robo_Hand_R1
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Arm_Robo_Hand_R3
+      parentName: Arm_Robo_Hand_R2
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Arm_Robo_Hand_R4
+      parentName: Arm_Robo_Hand_R3
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Arm_Robo_Hand_R5
+      parentName: Arm_Robo_Hand_R4
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Arm_Robo_Hand_R6
+      parentName: Arm_Robo_Hand_R5
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Arm_Robo_Hand_R7
+      parentName: Arm_Robo_Hand_R6
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Arm_Robo_Hand_R8
+      parentName: Arm_Robo_Hand_R6
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Arm_Robo_Hand_R9
+      parentName: Arm_Robo_Hand_R8
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Arm_Robo_Hand_R10
+      parentName: Arm_Robo_Hand_R9
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Arm_Robo_Hand_R11
+      parentName: Arm_Robo_Hand_R8
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Arm_Robo_Hand_R12
+      parentName: Arm_Robo_Hand_R11
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hand_tech_L
+      parentName: Drone
+      position: {x: -0.18135354, y: -0.020381965, z: 0.045347046}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Arm_Robo_Hand_L1
+      parentName: hand_tech_L
+      position: {x: 0.08107137, y: 0.020381965, z: -0.045347046}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Arm_Robo_Hand_L2
+      parentName: Arm_Robo_Hand_L1
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Arm_Robo_Hand_L3
+      parentName: Arm_Robo_Hand_L2
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Arm_Robo_Hand_L4
+      parentName: Arm_Robo_Hand_L3
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Arm_Robo_Hand_L5
+      parentName: Arm_Robo_Hand_L4
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Arm_Robo_Hand_L6
+      parentName: Arm_Robo_Hand_L5
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Arm_Robo_Hand_L7
+      parentName: Arm_Robo_Hand_L6
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Arm_Robo_Hand_L8
+      parentName: Arm_Robo_Hand_L6
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Arm_Robo_Hand_L9
+      parentName: Arm_Robo_Hand_L8
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Arm_Robo_Hand_L10
+      parentName: Arm_Robo_Hand_L9
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Arm_Robo_Hand_L11
+      parentName: Arm_Robo_Hand_L8
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Arm_Robo_Hand_L12
+      parentName: Arm_Robo_Hand_L11
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Control_Drone_root_LR
+      parentName: DM_Drone_Tech(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Control_Drone_hand_Root
+      parentName: Control_Drone_root_LR
+      position: {x: -0, y: 0.030000001, z: 0.047691926}
+      rotation: {x: 0.52472895, y: -0, z: -0, w: 0.85126936}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Control_Hand_L
+      parentName: Control_Drone_hand_Root
+      position: {x: -0.19475499, y: -0.020109437, z: -0.1452741}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Control_Hand_L1
+      parentName: Control_Hand_L
+      position: {x: -0, y: -0.043952066, z: 0.13569346}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Control_Hand_L2
+      parentName: Control_Hand_L1
+      position: {x: -0.0076220986, y: 0.011283429, z: 0.22274083}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Control_Hand_L3
+      parentName: Control_Hand_L2
+      position: {x: 0.050014116, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Control_Hand_L4
+      parentName: Control_Hand_L3
+      position: {x: 0.000000047683717, y: 0.03266863, z: -0.053709313}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Control_Hand_L5
+      parentName: Control_Hand_L4
+      position: {x: -0.000000047683717, y: -0.03266863, z: -0.055533886}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Control_Hand_L6
+      parentName: Control_Hand_L5
+      position: {x: -0, y: 0.03266863, z: -0.027816955}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Control_Hand_L7
+      parentName: Control_Hand_L5
+      position: {x: -0, y: 0.03266863, z: 0.010726159}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Control_Hand_L8
+      parentName: Control_Hand_L7
+      position: {x: 0.011363872, y: 0.001067233, z: 0.0017294231}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Control_Hand_L9
+      parentName: Control_Hand_L8
+      position: {x: -0, y: -0.00015215873, z: 0.019166876}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Control_Hand_L10
+      parentName: Control_Hand_L7
+      position: {x: -0.012149213, y: -0.0010791062, z: 0.0017294231}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Control_Hand_L11
+      parentName: Control_Hand_L10
+      position: {x: -0, y: 0.00000033378595, z: 0.019166876}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Control_Hand_R
+      parentName: Control_Drone_hand_Root
+      position: {x: 0.19475521, y: -0.020109437, z: -0.1452741}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Control_Hand_R11
+      parentName: Control_Hand_R
+      position: {x: -0, y: -0.043952066, z: 0.13569346}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Control_Hand_R12
+      parentName: Control_Hand_R11
+      position: {x: 0.0076220986, y: 0.011283429, z: 0.22274083}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Control_Hand_R13
+      parentName: Control_Hand_R12
+      position: {x: -0.050014116, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Control_Hand_R14
+      parentName: Control_Hand_R13
+      position: {x: -0.000000047683717, y: 0.03266863, z: -0.053709313}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Control_Hand_R15
+      parentName: Control_Hand_R14
+      position: {x: 0.000000047683717, y: -0.03266863, z: -0.055533886}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Control_Hand_R16
+      parentName: Control_Hand_R15
+      position: {x: -0, y: 0.03266863, z: -0.027816955}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Control_Hand_R17
+      parentName: Control_Hand_R15
+      position: {x: -0, y: 0.03266863, z: 0.010726159}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Control_Hand_R18
+      parentName: Control_Hand_R17
+      position: {x: -0.011363872, y: 0.001067233, z: 0.0017294231}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Control_Hand_R19
+      parentName: Control_Hand_R18
+      position: {x: -0, y: -0.00015215873, z: 0.019166876}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Control_Hand_R20
+      parentName: Control_Hand_R17
+      position: {x: 0.012149213, y: -0.0010791062, z: 0.0017294231}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Control_Hand_R21
+      parentName: Control_Hand_R20
+      position: {x: -0, y: 0.00000033378595, z: 0.019166876}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Control_Laser_L
+      parentName: Control_Drone_root_LR
+      position: {x: -0.60498726, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Control_Laser_R
+      parentName: Control_Drone_root_LR
+      position: {x: 0.4546429, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Control_Laser_L1
+      parentName: Control_Drone_root_LR
+      position: {x: -0.258436, y: -0.13866, z: 0.10089999}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Control_Laser_L2
+      parentName: Control_Drone_root_LR
+      position: {x: 0.2584357, y: -0.13866, z: 0.10089999}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Control_Laser_L3
+      parentName: Control_Drone_root_LR
+      position: {x: -0.14031176, y: 0.28654608, z: 0.000000029193258}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Root_Arm_Drone
+      parentName: DM_Drone_Tech(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Antena
+      parentName: Root_Arm_Drone
+      position: {x: -0.14031176, y: 0.2865462, z: 0.00005760941}
+      rotation: {x: 0.0000108610775, y: 0.99999684, z: -0.0025274619, w: 0.000032547723}
+      scale: {x: 1.000001, y: 1, z: 1.0000005}
+    - name: Open_R
+      parentName: Root_Arm_Drone
+      position: {x: 0.2584357, y: -0.13866042, z: 0.10089995}
+      rotation: {x: -0.0019680564, y: 0.95026284, z: -0.31144094, w: 0.0011261709}
+      scale: {x: 1.0000014, y: 1, z: 1.0000013}
+    - name: Open_L
+      parentName: Root_Arm_Drone
+      position: {x: -0.258436, y: -0.13866, z: 0.10089999}
+      rotation: {x: 0.0011261709, y: 0.31144089, z: 0.95026284, w: 0.0019680564}
+      scale: {x: 1.0000007, y: 1.0000001, z: 1.0000005}
+    - name: Arm_Robo_hand_R1
+      parentName: Root_Arm_Drone
+      position: {x: 0.19475521, y: 0.15074818, z: -0.035547685}
+      rotation: {x: -0.38519353, y: 0.59808004, z: -0.36919168, w: 0.59801656}
+      scale: {x: 0.99999976, y: 1, z: 0.99999964}
+    - name: Arm_Robo_hand_R2
+      parentName: Arm_Robo_hand_R1
+      position: {x: -0.13569346, y: 5.551115e-18, z: -0.000014416096}
+      rotation: {x: -8.0472895e-10, y: 0.017078402, z: -0.00011525868, w: 0.99985415}
+      scale: {x: 1.0000004, y: 1.0000002, z: 1.0000006}
+    - name: Arm_Robo_hand_R3
+      parentName: Arm_Robo_hand_R2
+      position: {x: -0.22287121, y: 7.8543755e-10, z: -0.000013023803}
+      rotation: {x: 0.16806626, y: -0.26447636, z: -0.16219613, w: 0.93568075}
+      scale: {x: 0.9999999, y: 1, z: 0.99999994}
+    - name: Arm_Robo_hand_R4
+      parentName: Arm_Robo_hand_R3
+      position: {x: -0.050014116, y: -0.0000000025248337, z: 0.0000148811705}
+      rotation: {x: 0.09919684, y: -0.02339962, z: -0.09903899, w: 0.9898504}
+      scale: {x: 0.9999992, y: 1, z: 0.9999989}
+    - name: Arm_Robo_hand_R5
+      parentName: Arm_Robo_hand_R4
+      position: {x: -0.053760465, y: 0.0000010887583, z: 0.0000006855907}
+      rotation: {x: -7.275958e-11, y: 0.000006765128, z: 0.000009369106, w: 1}
+      scale: {x: 0.99999905, y: 1.0000004, z: 0.9999996}
+    - name: Arm_Robo_hand_R6
+      parentName: Arm_Robo_hand_R5
+      position: {x: -0.05548273, y: -5.273559e-17, z: 2.220446e-17}
+      rotation: {x: -0.00001743199, y: -0.3392755, z: 0.069665655, w: 0.9381039}
+      scale: {x: 0.99999994, y: 1.0000004, z: 0.99999917}
+    - name: Arm_Robo_hand_R7
+      parentName: Arm_Robo_hand_R6
+      position: {x: -0.0276858, y: -1.6604938e-13, z: 1.0783825e-13}
+      rotation: {x: 0.00000030290462, y: 0.7071068, z: -0.0000003029422, w: 0.70710677}
+      scale: {x: 1.0000006, y: 1.0000004, z: 1.0000011}
+    - name: Arm_Robo_hand_R8
+      parentName: Arm_Robo_hand_R6
+      position: {x: 0.010268866, y: 0.000000017084139, z: 0.0000027018498}
+      rotation: {x: 0.00006841142, y: 0.9999999, z: 0.00026644967, w: -0.00054588664}
+      scale: {x: 1.0000021, y: 0.9999997, z: 1.0000024}
+    - name: Arm_Robo_hand_R9
+      parentName: Arm_Robo_hand_R8
+      position: {x: -0.0021859868, y: 0.000996364, z: 0.0000008008019}
+      rotation: {x: 0.00026425498, y: -0.00055073824, z: 0.003951786, w: 0.999992}
+      scale: {x: 1.000004, y: 0.9999985, z: 1.0000007}
+    - name: Arm_Robo_hand_R10
+      parentName: Arm_Robo_hand_R9
+      position: {x: -0.01916748, y: 0.0000019591953, z: 0.00000016645943}
+      rotation: {x: -0.0035871183, y: -0.9999936, z: -0.0000000027648637, w: 0.000005096255}
+      scale: {x: 0.999999, y: 1, z: 1.0000011}
+    - name: Arm_Robo_hand_R11
+      parentName: Arm_Robo_hand_R8
+      position: {x: -0.0021826818, y: -0.001152793, z: -0.0000000067625603}
+      rotation: {x: 0.000001178101, y: 0.0000006441842, z: -0.000851024, w: 0.99999964}
+      scale: {x: 1.0000033, y: 0.99999887, z: 1.0000007}
+    - name: Arm_Robo_hand_R12
+      parentName: Arm_Robo_hand_R11
+      position: {x: -0.01917108, y: -0.00003208979, z: -0.000021248889}
+      rotation: {x: 0.00025458823, y: -0.0005576981, z: -0.00000015446689, w: 0.9999998}
+      scale: {x: 1.0000004, y: 0.9999991, z: 1.0000008}
+    - name: Laser_R
+      parentName: Root_Arm_Drone
+      position: {x: 0.32048786, y: -1.1302177e-11, z: -0.000000014955651}
+      rotation: {x: 4.6837534e-17, y: -1.2777323e-16, z: -4.8572257e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Arm_Robo_hand_L1
+      parentName: Root_Arm_Drone
+      position: {x: -0.19475499, y: 0.15074809, z: -0.035547595}
+      rotation: {x: 1.0585116e-12, y: -0.7071443, z: 1.058624e-12, w: 0.7070692}
+      scale: {x: 0.99999964, y: 1, z: 0.9999995}
+    - name: Arm_Robo_hand_L2
+      parentName: Arm_Robo_hand_L1
+      position: {x: 0.13569334, y: 4.440892e-17, z: -0.000014416085}
+      rotation: {x: -0.12019081, y: -0.03156099, z: -0.6312064, w: 0.7655956}
+      scale: {x: 0.99999917, y: 1, z: 0.9999989}
+    - name: Arm_Robo_hand_L3
+      parentName: Arm_Robo_hand_L2
+      position: {x: 0.22274145, y: 0.00005130001, z: 0.0075983354}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 0.9999995, y: 1, z: 0.9999993}
+    - name: Arm_Robo_hand_L4
+      parentName: Arm_Robo_hand_L3
+      position: {x: -0.0000053134963, y: 0.000017700006, z: -0.050014}
+      rotation: {x: 0.000078700476, y: -0.48124343, z: 0.826128, w: 0.29311663}
+      scale: {x: 0.99999905, y: 1, z: 0.99999905}
+    - name: Arm_Robo_hand_L5
+      parentName: Arm_Robo_hand_L4
+      position: {x: -0.053759996, y: 0.0000021, z: 0.0000057114717}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 0.99999857, y: 1, z: 0.99999845}
+    - name: Arm_Robo_hand_L6
+      parentName: Arm_Robo_hand_L5
+      position: {x: -0.055483, y: 7.053268e-12, z: 0.000005894524}
+      rotation: {x: 0.36500698, y: 0.27844557, z: -0.50530636, w: 0.73068696}
+      scale: {x: 0.99999905, y: 1, z: 0.99999857}
+    - name: Arm_Robo_hand_L7
+      parentName: Arm_Robo_hand_L6
+      position: {x: -0.0276858, y: 0.000000023848743, z: 0.0000029375}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 0.9999995, y: 1, z: 0.9999993}
+    - name: Arm_Robo_hand_L8
+      parentName: Arm_Robo_hand_L6
+      position: {x: 0.010268999, y: -0.000000008836103, z: -0.0000040895543}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 0.99999917, y: 1, z: 0.99999905}
+    - name: Arm_Robo_hand_L9
+      parentName: Arm_Robo_hand_L8
+      position: {x: 0.0021860013, y: 0.0009960979, z: 0.0000027680644}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 0.9999986, y: 1, z: 0.99999857}
+    - name: Arm_Robo_hand_L10
+      parentName: Arm_Robo_hand_L9
+      position: {x: 0.019166999, y: -0.0001522165, z: -0.0000020336445}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 0.9999997, y: 1, z: 0.9999993}
+    - name: Arm_Robo_hand_L11
+      parentName: Arm_Robo_hand_L8
+      position: {x: 0.0021819992, y: -0.0011531019, z: 0.0000027684841}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 0.9999986, y: 1, z: 0.99999857}
+    - name: Arm_Robo_hand_L12
+      parentName: Arm_Robo_hand_L11
+      position: {x: 0.019171, y: -0.000002116502, z: -0.0000020340688}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 0.99999964, y: 1, z: 0.99999917}
+    - name: Laser_L
+      parentName: Root_Arm_Drone
+      position: {x: -0.3204658, y: -0.000044159064, z: 0.00043281502}
+      rotation: {x: 4.6837534e-17, y: -1.2777323e-16, z: -4.8572257e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 10
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: 7fbb4afe6bd4d724789f8b73ca9674f2, type: 3}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 2
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
